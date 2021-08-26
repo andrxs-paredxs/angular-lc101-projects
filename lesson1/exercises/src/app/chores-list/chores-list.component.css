@@ -1,0 +1,13 @@
+.chores{
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    color: darkgrey;
+}
+
+h3{
+    text-decoration: underline dashed red 2px;
+}
+
+li{
+    font-style: italic;
+}

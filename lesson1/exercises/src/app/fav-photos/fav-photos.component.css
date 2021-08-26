@@ -3,7 +3,11 @@ h3 {
 }
 
 img {
-
+   border-radius: 8px;
+   width: 220px;
+   height: auto;
+   padding: 5px;
+   background-color: azure;
 }
 
 .photos {
