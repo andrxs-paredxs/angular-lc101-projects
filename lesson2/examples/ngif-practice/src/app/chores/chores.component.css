@@ -16,3 +16,10 @@ img {
     display: block;
     margin: auto;
 }
+
+#label-message{
+    color:blanchedalmond;
+    background-color: darkslategray;
+    text-align: center;
+    font-style: italic;
+}
