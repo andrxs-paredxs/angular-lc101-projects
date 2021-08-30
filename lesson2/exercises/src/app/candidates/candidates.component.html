@@ -38,7 +38,7 @@
     <div class = 'centered'>
         <button (click) = 'true; selected=""' >Clear Data & Image</button>
         <!-- Add a "Send on Mission" button here. -->
-        <button (click)="addToCrew(selected)" *ngIf="selected">Send on Mission</button>
+        <button (click)="addToCrew(selected)" *ngIf="selected && !crew.includes(selected) && crew.length !== 3">Send on Mission</button>
     </div>
 </div>
 
