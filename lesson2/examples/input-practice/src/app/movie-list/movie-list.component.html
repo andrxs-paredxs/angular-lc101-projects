@@ -3,6 +3,9 @@
     <ol>
        <li *ngFor ="let ps of movies">{{ps}}</li>
     </ol>
+    <input #newmovie (keyup.enter)="addMovie(newmovie.value); newmovie.value = ''" type="text" placeholder="Enter Movie Title Here"/>
+    <button (click)='addMovie(newmovie.value); newmovie.value = ""'>Add</button>
+    <!--p>{{newmovie.value}}</p-->
     <hr>
 
  </div>
